@@ -1,5 +1,6 @@
 # RotatingView
 [ ![Download](https://api.bintray.com/packages/blueyuki/maven/RotatingView/images/download.svg) ](https://bintray.com/blueyuki/maven/RotatingView/_latestVersion)
+
 ImageView结合Animation对无限旋转的简单实现，做成组件只是为了使用方便。
 
 
@@ -25,11 +26,11 @@ implementation 'cn.byk.pandora:rotatingview:1.0.0'
 ```
 
 - 自定义属性说明
-| 属性名 | 用途 |
-| ---- | ---- |
-| duration | 旋转持续总时间，单位毫秒 |
-| circles | 旋转圈数，可以根据旋转速率算出来 |
-| infinity | 是否无限执行动画 |
+| 属性名    | 用途                         |
+| -------- | ---------------------------- |
+| duration | 旋转持续总时间，单位毫秒        |
+| circles  | 旋转圈数，可以根据旋转速率算出来 |
+| infinity | 是否无限执行动画               |
 
 
 ## 更多 More
