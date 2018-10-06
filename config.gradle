@@ -1,0 +1,39 @@
+ext {
+    // Sdk and tools
+    compileSdkVersion = 28
+    minSdkVersion = 16
+    targetSdkVersion = 28
+
+    // Libs dependencies
+    supportLibraryVersion = '1.0.0'
+    junitVersion = '4.12'
+    runnerVersion = '1.1.0-alpha4'
+    espressoVersion = '3.1.0-alpha4'
+
+    // version
+    versionCode = '100'
+
+    // Bin-tray
+    bintrayRepo = 'maven'
+    bintrayName = 'RotatingView'
+
+    publishedGroupId = 'cn.byk.pandora'
+    artifact = 'rotatingview'
+    libraryName = 'RotatingView'
+    libraryVersion = '1.0.0'
+
+    libraryDescription = 'A Rotating View'
+
+    siteUrl = 'https://github.com/bluesofy/RotatingView'
+    gitUrl = 'https://github.com/bluesofy/RotatingView.git'
+    javaDocUrl = 'https://github.com/bluesofy/RotatingView/tree/master/RotatingView/docs/javadoc'
+    issuesUrl = 'https://github.com/bluesofy/RotatingView/issues'
+
+    developerId = 'bluesofy'
+    developerName = 'Byk'
+    developerEmail = 'bluesofy@live.cn'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
